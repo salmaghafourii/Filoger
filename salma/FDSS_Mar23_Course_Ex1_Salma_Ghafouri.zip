@@ -1,0 +1,20 @@
+from prettytable import PrettyTable
+def char_frequency(str1):
+    dict = {}
+    for n in str1:
+        keys = dict.keys()
+        if n in keys:
+            dict[n] += 1
+        else:
+            dict[n] = 1
+    return dict
+i = input  ("please enter the sentence: ")
+s3 =i.replace(" ","")
+z = (char_frequency(s3))
+myTable = PrettyTable([" Name", "frequency" ])
+myTable.add_row( [ s3 , z]) 
+print(myTable)
+
+
+ 
+ 

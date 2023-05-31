@@ -1,0 +1,5 @@
+import salma
+i = input  ("please enter the sentence: ")
+z = (char_frequency(q))
+print(myTable = PrettyTable([" Name", "frequency" ]))
+
